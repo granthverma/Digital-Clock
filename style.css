@@ -1,12 +1,11 @@
-
 body {
-    background-color: #212121;
+    background-color: #1a1a1a; /* Darker background */
     color: #fff;
     font-family: 'Arial', sans-serif; /* Use a sans-serif font */
-    margin: 0;
+    margin: 0; /* Remove default margin */
 }
 
-.center{
+.center {
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -14,18 +13,25 @@ body {
     flex-direction: column;
 }
 
-#clock{
-    font-size: 48px;
-    background-color: orange; /* Green color for the clock */
-    padding: 20px 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    text-align: center;
-    color: #fff;
+#banner {
+    font-size: 28px;
+    color: #ffcc00; /* Golden color for the banner */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
 }
 
-#banner {
-    font-size: 24px;
-    color:  #fff;/* Golden color for the banner */
-    margin-bottom: 10px;
+#clock {
+    font-size: 60px;
+    background-color: #4CAF50; /* Green color for the clock */
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add a more prominent box shadow */
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px; /* Add some letter spacing for a modern look */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on background color */
+}
+
+#clock:hover {
+    background-color: #45a049; /* Darken the background on hover */
 }
